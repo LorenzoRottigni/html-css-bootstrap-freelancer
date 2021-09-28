@@ -4,3 +4,86 @@
 .text-gray{
     color: gray
 }
+body{
+    color: white;
+}
+.navbar-brand-a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#hero-section{
+    background-color: #1abc9d;
+}
+.star-bar{
+    height: 5px;
+    border-radius: 15px;
+    background-color: white;
+    width: 30%;
+}
+i.fa-star{
+    color: white;
+    font-size: 36px;
+}
+#hero-section p{
+    color: white;
+    font: 18px;
+    text-align: center;
+    
+}
+#portfolio-section{
+    padding: 0 20px;
+}
+#portfolio-section *,
+#contact-me-section *{
+    color: black
+}
+#portfolio-section .star-bar,
+#contact-me-section .star-bar{
+    background-color: black
+}
+#about-section{
+    background-color: #1abc9d;
+}
+#contact-me-section input,
+#contact-me-section textarea{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+.btn-success{
+    background-color: #1abc9d;
+    border-color: #1abc9d;
+}
+footer{
+    background-color: #3a546d;
+    padding-top: 30px;
+}
+footer div{
+    white-space: pre-line;
+}
+.i-container{
+    border: solid 2px white;
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.i-container i{
+    font-size: 24px;
+    max-width: 50px;
+    max-height: 50px;
+}
+.darkest-div{
+    background-color: #2c3e50;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.color-success{
+    color:#1abc9d;
+    font-weight: bold;
+}

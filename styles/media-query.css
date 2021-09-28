@@ -1,0 +1,14 @@
+@media screen and (min-width: 576px) {
+    #accordion-hamburger{
+        display: none;
+    }
+    #hidden-nav{
+        display: block !important; 
+    }
+    #top-nav{
+        justify-content: space-around !important;
+    }
+    #portfolio-section .row{
+        padding: 0 calc((100%/12)*1.5)
+    }
+}
