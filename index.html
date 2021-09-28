@@ -17,9 +17,15 @@
     <!-- Media Query -->
     <link rel="stylesheet" href="styles/media-query.css">
 
-    <title>Hello, world!</title>
+    <!-- Animations -->
+    <link rel="stylesheet" href="styles/animation.css">
+
+    <title>Bootstrap Portfolio</title>
   </head>
   <body>
+    <!---------------------->
+    <!-- HEADER -->
+    <!---------------------->
       <header>
         <nav class="container-fluid bg-dark py-4 flex-nowrap">
             <div id="top-nav" class="row d-flex align-items-center">
@@ -36,21 +42,27 @@
                     </div>
                     <nav id="hidden-nav" class="d-none">
                       <ul class="list-group list-group-horizontal list-unstyled">
-                        <li class="px-1">PORTFOLIO</li>
-                        <li class="px-1">ABOUT</li>
-                        <li class="px-1">CONTACT</li>
+                        <li class="nav-list px-1">PORTFOLIO</li>
+                        <li class="nav-list px-1">ABOUT</li>
+                        <li class="nav-list px-1">CONTACT</li>
                       </ul>
                     </nav>
                 </div>
             </div>
         </nav>
       </header>
+      <!---------------------->
+      <!-- MAIN -->
+      <!---------------------->
       <main>
+        <!---------------------->
+        <!-- HERO SECTION -->
+        <!---------------------->
         <section id="hero-section">
             <div class="fluid-container py-3">
               <div class="row">
                 <div class="col-8 offset-2 col-sm-4 offset-sm-4 col-lg-4 offset-lg-4">
-                  <svg  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  <svg  class="hero-image-container" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 264 280" style="enable-background:new 0 0 264 280;" xml:space="preserve">
                     <style type="text/css">
                       .st0{fill-rule:evenodd;clip-rule:evenodd;fill:#E6E6E6;}
@@ -300,7 +312,7 @@
                 <div class="col-10 offset-1 d-flex justify-content-center text-white">
                   <h1 class="h1 py-4 text-center">START BOOTSTRAP</h1>
                 </div>
-                <div class="col-8 offset-2 d-flex justify-content-center align-items-center">
+                <div class="star-container col-8 offset-2 d-flex justify-content-center align-items-center">
                   <div class="star-bar"></div>
                   <i class="fas fa-star px-3"></i>
                   <div class="star-bar"></div>
@@ -311,13 +323,16 @@
               </div>
             </div>
         </section>
+        <!---------------------->
+        <!-- PORTFOLIO SECTION -->
+        <!---------------------->
         <section id="portfolio-section">
           <div class="fluid-container py-3">
             <div class="row">
                 <div class="col-10 offset-1 d-flex justify-content-center text-white">
                   <h1 class="h1 py-4 text-center">PORTFOLIO</h1>
                 </div>
-                <div class="col-8 offset-2 d-flex justify-content-center align-items-center">
+                <div class="star-container col-8 offset-2 d-flex justify-content-center align-items-center">
                   <div class="star-bar"></div>
                   <i class="fas fa-star px-3"></i>
                   <div class="star-bar"></div>
@@ -343,13 +358,16 @@
             </div>
           </div>
         </section>
+        <!---------------------->
+        <!-- ABOUT SECTION -->
+        <!---------------------->
         <section id="about-section">
           <div class="fluid-container">
             <div class="row py-3">
               <div class="col-10 offset-1 d-flex justify-content-center text-white">
                 <h1 class="h1 py-4 text-center">ABOUT</h1>
               </div>
-              <div class="col-8 offset-2 d-flex justify-content-center align-items-center">
+              <div class="star-container col-8 offset-2 d-flex justify-content-center align-items-center">
                 <div class="star-bar"></div>
                 <i class="fas fa-star px-3"></i>
                 <div class="star-bar"></div>
@@ -374,13 +392,16 @@
             </div>
           </div>
         </section>
+        <!---------------------->
+        <!-- CONTACT ME SECTION -->
+        <!---------------------->
         <section id="contact-me-section">
           <div class="fluid-container">
             <div class="row py-3">
               <div class="col-10 offset-1 d-flex justify-content-center text-white">
                 <h1 class="h1 py-4 text-center">CONTACT ME</h1>
               </div>
-              <div class="col-8 offset-2 d-flex justify-content-center align-items-center">
+              <div class="star-container col-8 offset-2 d-flex justify-content-center align-items-center">
                 <div class="star-bar"></div>
                 <i class="fas fa-star px-3"></i>
                 <div class="star-bar"></div>
@@ -410,6 +431,9 @@
           </div>
         </section>
       </main>
+      <!---------------------->
+      <!-- FOOTER -->
+      <!---------------------->
       <footer>
         <div class="container-fluid d-flex justify-content-center align-items-center">
           <div class="row">
@@ -428,7 +452,7 @@
             </div>
             <div class="col-12 col-sm-4 text-center px-5">
               ABOUT FREELANCER
-              Freelance is a free to use, open-source Bootstrap theme created by <span class="color-success">Start Bootstrap</span>.
+              Freelance is a free to use, open-source Bootstrap theme created by <span class="text-success">Start Bootstrap</span>.
             </div>
             <div class="col-12 darkest-div text-center">
               Copyright	&#169; your website 2019

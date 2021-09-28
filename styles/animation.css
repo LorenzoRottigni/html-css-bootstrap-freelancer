@@ -1,0 +1,89 @@
+@keyframes bar-movements {
+    0%{
+        margin-right: 0;
+        background-color: #3a546d;
+    }
+    50%{
+        margin-left: -15%;
+        margin-right: 15%;
+        background-color: transparent
+    }
+    100%{
+        margin-left: 15%;
+        background-color: #3a546d;
+    }
+}
+@keyframes bar-movements-reverse {
+    0%{
+        margin-right: 0;
+        background-color: #3a546d;
+    }
+    50%{
+        margin-right: -15%;
+        margin-left: 15%;
+        background-color: transparent
+    }
+    100%{
+        margin-right: 15%;
+        background-color: #3a546d;
+    }
+}
+@keyframes star-rotation {
+    0%{
+        color: #3a546d
+    }
+    50%{
+        color: #2c3e50
+    }
+    100%{
+        transform: rotate(360deg);
+        color: #3a546d;
+    }
+}
+.star-container,
+.star-container *{
+    transition: 2s;
+}
+.star-container .star-bar:nth-child(1){
+    animation: bar-movements 2s infinite linear;
+}
+.star-container .star-bar:nth-child(3){
+    animation: bar-movements-reverse 2s infinite linear;
+}
+.star-container .fa-star{
+    animation: star-rotation 2s infinite linear;
+}
+.hero-image-container{
+    transition: 2s;
+}
+.hero-image-container:hover{
+    transform: scale(110%);
+}
+div.i-container{
+    transition: 1.5s;
+}
+div.i-container i{
+    transition: 1s;
+}
+div.i-container:hover{
+    background-color: white;
+    cursor: pointer
+}
+div.i-container:hover i{
+    transform: rotate(360deg);
+    color: #3a546d
+}
+span.color-success{
+    transition: 1s;
+}
+span.color-success:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.nav-list{
+    transition: 1s;
+}
+.nav-list:hover{
+    color: #1abc9d;
+    cursor: pointer
+}

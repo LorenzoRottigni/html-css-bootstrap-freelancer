@@ -1,67 +1,126 @@
 :root{
     --bs-dark-rgb: 44,62,80;
+    --success-color: #1abc9d;
 }
+
+/* colors */
+
 .text-gray{
     color: gray
 }
+
+.text-success{
+    color:#1abc9d;
+    font-weight: bold;
+}
+
+/* buttons */
+
+.btn-success{
+    background-color: var(--success-color);
+    border-color: var(--success-color);
+}
+
+/**********************/
+/* BODY */
+/**********************/
+
 body{
     color: white;
 }
+
+/* navbar START BOOTSRAP brand */
+
 .navbar-brand-a{
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
-#hero-section{
-    background-color: #1abc9d;
-}
+
+/* bar star bar section */
+
 .star-bar{
     height: 5px;
     border-radius: 15px;
     background-color: white;
     width: 30%;
 }
+
 i.fa-star{
     color: white;
     font-size: 36px;
 }
+
+/**********************/
+/* HERO SECTION */
+/**********************/
+
+#hero-section{
+    background-color: var(--success-color);
+}
+
 #hero-section p{
     color: white;
     font: 18px;
     text-align: center;
     
 }
+
+
+/**********************/
+/* PORTFOLIO SECTION */
+/**********************/
+
 #portfolio-section{
     padding: 0 20px;
 }
+
 #portfolio-section *,
 #contact-me-section *{
     color: black
 }
+
 #portfolio-section .star-bar,
 #contact-me-section .star-bar{
     background-color: black
 }
+
+/**********************/
+/* ABOUT SECTION */
+/**********************/
+
 #about-section{
-    background-color: #1abc9d;
+    background-color: var(--success-color);
 }
+
+/**********************/
+/* CONTACT ME SECTION */
+/**********************/
+
 #contact-me-section input,
 #contact-me-section textarea{
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
 }
-.btn-success{
-    background-color: #1abc9d;
-    border-color: #1abc9d;
-}
+
+/**********************/
+/* FOOTER */
+/**********************/
+
 footer{
     background-color: #3a546d;
     padding-top: 30px;
 }
+
+/* line breaker */
+
 footer div{
     white-space: pre-line;
 }
+
+/* font-awesome footer icons */
+
 .i-container{
     border: solid 2px white;
     border-radius: 50%;
@@ -73,17 +132,17 @@ footer div{
     justify-content: center;
     align-items: center;
 }
+
 .i-container i{
     font-size: 24px;
     max-width: 50px;
     max-height: 50px;
 }
+
+/* bottom footer div */
+
 .darkest-div{
     background-color: #2c3e50;
     margin-top: 50px;
     padding-bottom: 50px;
-}
-.color-success{
-    color:#1abc9d;
-    font-weight: bold;
 }
